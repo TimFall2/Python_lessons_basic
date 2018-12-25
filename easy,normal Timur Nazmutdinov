@@ -1,0 +1,45 @@
+easy :
+№1
+first_name = input('Введите число ')
+i = 0
+while i < len(first_name):
+    print(first_name[i])
+    i += 1
+    
+    
+№ 2 
+a = input("First variable: ")
+b = input("Second variable: ")
+a,b=b,a
+print("The first variable now is: ", a)
+print("the second variable now is: ", b)
+
+№3
+a = int(input("Сколько вам лет "))
+if a <= 17 :
+   print("Извините, пользование данным ресурсом только с 18 лет")
+elif a >= 18:
+   print("Доступ разрешен") 
+Normal:
+№1
+b = input("введите число : ")
+print(max(b))
+
+№2
+a = input("First variable: ")
+b = input("Second variable: ")
+a,b=b,a
+print("The first variable now is: ", a)
+print("the second variable now is: ", b)
+
+№3
+import math
+
+
+print(" Решаем уравнение: ax2 + bx + c = 0. ")
+a = int(input("введите число a : "))
+b = int(input("введите число b : "))
+c = int(input("введите число c : "))
+
+D=(b**2 - 4*a*c)
+
